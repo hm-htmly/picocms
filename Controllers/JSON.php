@@ -5,4 +5,14 @@ class JSON
 	{
 		
 	}
+
+    public static function getTemplate()
+    {
+
+    }
+
+    public static function getHeader()
+    {
+
+    }
 }
