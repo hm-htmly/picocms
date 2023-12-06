@@ -1,18 +1,10 @@
+
 {
-	{
-		"user": "ichbins",
-		"mail": "henry.muth@yahoo.de",
-		"password": "7110eda4d09e062aa5e4a390b0a572ac0d2c0220",
-		"first_login": "20.04.2021 10:09:46",
-		"last_login": "20.05.2021 11:38:56",
-		"gesperrt": false
-	},
-	{
-		"user": "igor",
-		"mail": "igor@yahoo.de",
-		"password": "7110eda4d09e062aa5e4a390b0a572ac0d2c0220",
-		"first_login": "20.04.2021 10:09:46",
-		"last_login": "20.05.2021 11:38:56",
-		"gesperrt": true
-	}
+    "user":["ichbins","igor"],
+    "mail":["henry.muth@yahoo.de","igor@yahoo.de"],
+    "password":["7110eda4d09e062aa5e4a390b0a572ac0d2c0220","7110eda4d09e062aa5e4a390b0a572ac0d2c0220"],
+    "first_login":["20.04.2021 10:09:46","20.04.2021 10:09:46"],
+    "last_login":["20.05.2021 11:38:56","20.05.2021 11:38:56"],
+    "gesperrt":[false,true]
 }
+

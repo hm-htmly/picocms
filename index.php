@@ -1,12 +1,13 @@
 <?php
 require_once "autoload.php";
 
-if(!defined('BASEURL')) define('BASEURL', 'http://server.my-homeip.de/my_router/');
+if(!defined('BASEURL')) define('BASEURL', 'http://server.my-homeip.de/myr/picocms/');
 
 $router = new Router;
 
 $router->all('/', function() {
-    View::render('head', array('title' => 'Routing', 'slug' => 'Hier kommt der simple Router.'));
+echo JSON::setTemplate()['template'];
+    View::render('head', array('title' => GlobVar::setUser(), 'slug' => 'Hier kommt der simple Router.'));
     View::render('header-navi');
     View::render('home', array('site_title' => 'The first Site','content' => 'Hier kommt die erste Beschreibung des Projekt\'s'));
     View::render('footer');
