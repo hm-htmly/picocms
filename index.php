@@ -6,7 +6,7 @@ if(!defined('BASEURL')) define('BASEURL', 'http://server.my-homeip.de/myr/picocm
 $router = new Router;
 
 $router->all('/', function() {
-echo JSON::setTemplate()['template'];
+//echo JSON::setTemplate()['template'];
     View::render('head', array('title' => GlobVar::setUser(), 'slug' => 'Hier kommt der simple Router.'));
     View::render('header-navi');
     View::render('home', array('site_title' => 'The first Site','content' => 'Hier kommt die erste Beschreibung des Projekt\'s'));
