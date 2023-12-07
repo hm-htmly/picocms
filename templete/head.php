@@ -13,7 +13,7 @@
 	</head>
 	<body>
 		<header>
-			<h1><?= $title['user'][0]; ?></h1>
+			<h1><?= $title; ?></h1>
 			<h2><?= $slug; ?></h2>
 		</header>
 		<main>
